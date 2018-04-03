@@ -1,0 +1,32 @@
+{
+    "name": "theme-expressive-quietlight",
+    "version": "0.0.1",
+    "categories": [
+        "Themes"
+    ],
+    "publisher": "vlkoti",
+    "author": {
+        "name": "Vladimir Kotikov",
+        "email": "kotikov.vladimir@gmail.com",
+        "url": "https://github.com/vladimir-kotikov"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:vladimir-kotikov/vscode-theme-expressive-quietlight.git"
+    },
+    "keywords": [
+        "theme", "light", "quiet", "terminal"
+    ],
+    "engines": {
+        "vscode": "*"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Expressive (Quiet) Light",
+                "uiTheme": "vs",
+                "path": "./expressive-quietlight-color-theme.json"
+            }
+        ]
+    }
+}
